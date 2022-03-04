@@ -12,7 +12,7 @@ public class HelloworldApplication {
   class HelloworldController {
     @GetMapping("/")
     String hello() {
-      return "Hello Tekton!!";
+      return "Hello from Introduction to Tekton!!";
     }
   }
 
